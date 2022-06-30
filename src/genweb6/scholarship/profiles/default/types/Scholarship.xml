@@ -9,8 +9,8 @@
     <property name="global_allow">True</property>
     <property name="filter_content_types">True</property>
 
-    <property name="schema">genweb6.scholarship.content.scholarship.IScholarship</property>
-    <property name="klass">genweb6.scholarship.content.scholarship.Scholarship</property>
+    <property name="schema">genweb6.scholarship.content.scholarship.scholarship.IScholarship</property>
+    <property name="klass">genweb6.scholarship.content.scholarship.scholarship.Scholarship</property>
     <property name="add_permission">cmf.AddPortalContent</property>
     <property name="factory">Scholarship</property>
     <property name="link_target"></property>
