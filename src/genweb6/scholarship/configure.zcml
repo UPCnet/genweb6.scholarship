@@ -1,0 +1,42 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="genweb6.scholarship">
+
+    <i18n:registerTranslations directory="locales" />
+
+    <include package=".content" />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="genweb6.scholarship"
+        directory="profiles/default"
+        description="Installs the genweb6.scholarship add-on."
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        post_handler=".setuphandlers.post_install"
+        />
+
+    <genericsetup:registerProfile
+        name="uninstall"
+        title="genweb6.scholarship (uninstall)"
+        directory="profiles/uninstall"
+        description="Uninstalls the genweb6.scholarship add-on."
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        post_handler=".setuphandlers.uninstall"
+        />
+
+    <utility
+        factory=".setuphandlers.HiddenProfiles"
+        name="genweb6.scholarship-hiddenprofiles"
+        />
+
+    <plone:static
+        directory="theme"
+        type="theme"
+        name="genweb6.scholarship"
+        />
+
+</configure>

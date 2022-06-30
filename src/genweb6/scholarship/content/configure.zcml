@@ -1,0 +1,17 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="genweb6.scholarship">
+
+    <include package="plone.app.contentmenu" />
+
+    <browser:page
+        name="view"
+        for="genweb6.scholarship.content.scholarship.scholarship.IScholarship"
+        class=".scholarship.scholarship.View"
+        layer="..interfaces.IGenweb6ScholarshipLayer"
+        permission="zope2.View"
+        template="scholarship/scholarship.pt"
+        />
+
+</configure>

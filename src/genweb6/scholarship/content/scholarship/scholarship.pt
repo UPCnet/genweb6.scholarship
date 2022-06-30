@@ -1,0 +1,213 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+    xmlns:tal="http://xml.zope.org/namespaces/tal"
+    xmlns:metal="http://xml.zope.org/namespaces/metal"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    lang="en"
+    metal:use-macro="context/main_template/macros/master"
+    i18n:domain="genweb.scholarship">
+
+    <body>
+        <metal:content-core fill-slot="content-core">
+        <metal:block define-macro="content-core">
+
+            <div tal:condition="python: context.summary" class="documentDescription description">
+                <span tal:replace="structure context/summary/output|nothing"/>
+            </div>
+            <div tal:condition="python: context.organism or context.recipients or context.others" class="row">
+                <div class="col-md-12">
+                    <div class="box" style="text-align: left; ">
+                        <h3 style="text-align: center;" i18n:translate="">General information</h3>
+                        <hr class="liniaDalt" />
+                        <ul class="list list-index" style="text-align:left; ">
+                            <li tal:condition="context/organism">
+                                <span>
+                                    <strong i18n:translate="">Responsible Organism:</strong>
+                                    <span tal:replace="structure context/organism/output|nothing"/>
+                                </span>
+                            </li>
+                            <li tal:condition="context/recipients">
+                                <span>
+                                    <strong i18n:translate="">Recipients:</strong>
+                                    <span tal:replace="structure context/recipients/output|nothing"/>
+                                </span>
+                            </li>
+                            <li tal:condition="context/others">
+                                <span>
+                                    <strong i18n:translate="">Others:</strong>
+                                    <span tal:replace="structure context/others/output|nothing"/>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div tal:condition="python: context.general_requirements or context.academic_requirements or context.economic_requirements or context.incompatibilities" class="row">
+                <div class="span12">
+                    <div class="box" style="text-align: left; ">
+                        <h3 style="text-align: center;" i18n:translate="">Requirements</h3>
+                        <hr class="liniaDalt" />
+                        <ul class="list list-index" style="text-align:left; ">
+                            <li tal:condition="context/general_requirements">
+                                <span>
+                                    <strong i18n:translate="">General requirements:</strong>
+                                    <span tal:replace="structure context/general_requirements/output|nothing"/>
+                                </span>
+                            </li>
+                            <li tal:condition="context/academic_requirements">
+                                <span>
+                                    <strong i18n:translate="">Academic requirements:</strong>
+                                    <span tal:replace="structure context/academic_requirements/output|nothing"/>
+                                </span>
+                            </li>
+                            <li tal:condition="context/economic_requirements">
+                                <span>
+                                    <strong i18n:translate="">Economic requirements:</strong>
+                                    <span tal:replace="structure context/economic_requirements/output|nothing"/>
+                                </span>
+                            </li>
+                            <li tal:condition="context/incompatibilities">
+                                <span>
+                                    <strong i18n:translate="">Incompatibilities:</strong>
+                                    <span tal:replace="structure context/incompatibilities/output|nothing"/>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div tal:condition="python: context.start_date or context.deadline or context.submission or context.documentation" class="row">
+                <div class="span12">
+                    <div class="box" style="text-align: left; ">
+                        <h3 style="text-align: center;" i18n:translate="">Application</h3>
+                        <hr class="liniaDalt" />
+                        <ul class="list list-index" style="text-align:left; ">
+                            <li tal:condition="context/start_date">
+                                <span>
+                                    <strong i18n:translate="">Start date of application:</strong>
+                                    <tal:date content="python:context.start_date.strftime('%d/%m/%Y')"></tal:date>
+                                </span>
+                            </li>
+                            <li tal:condition="context/deadline">
+                                <span>
+                                    <strong i18n:translate="">End date of application:</strong>
+                                    <tal:date content="python:context.deadline.strftime('%d/%m/%Y')"></tal:date>
+                                </span>
+                            </li>
+                            <li tal:condition="context/submission">
+                                <span>
+                                    <strong i18n:translate="">Application submission:</strong>
+                                    <span tal:replace="structure context/submission/output|nothing"/>
+                                </span>
+                            </li>
+                            <li tal:condition="context/documentation">
+                                <span>
+                                    <strong i18n:translate="">Additional documentation:</strong>
+                                    <span tal:replace="structure context/documentation/output|nothing"/>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div tal:condition="python: context.amount or context.additional_amount or context.duration or context.payment or context.beneficiaries" class="row">
+                <div class="span12">
+                    <div class="box" style="text-align: left; ">
+                        <h3 style="text-align: center;" i18n:translate="">Scholarship</h3>
+                        <hr class="liniaDalt" />
+                        <ul class="list list-index" style="text-align:left; ">
+                            <li tal:condition="context/amount">
+                                <span>
+                                    <strong i18n:translate="">General amount of scholarship:</strong>
+                                    <span tal:replace="structure context/amount/output|nothing"/>
+                                </span>
+                            </li>
+                            <li tal:condition="context/additional_amount">
+                                <span>
+                                    <strong i18n:translate="">Additional amounts of scholarship:</strong>
+                                    <span tal:replace="structure context/additional_amount/output|nothing"/>
+                                </span>
+                            </li>
+                            <li tal:condition="context/duration">
+                                <span>
+                                    <strong i18n:translate="">Duration of the grant:</strong>
+                                    <span tal:replace="structure context/duration/output|nothing"/>
+                                </span>
+                            </li>
+                            <li tal:condition="context/payment">
+                                <span>
+                                    <strong i18n:translate="">Payment:</strong>
+                                    <span tal:replace="structure context/payment/output|nothing"/>
+                                </span>
+                            </li>
+                            <li tal:condition="context/beneficiaries">
+                                <span>
+                                    <strong i18n:translate="">Obligations of the beneficiaries:</strong>
+                                    <span tal:replace="structure context/beneficiaries/output|nothing"/>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div tal:condition="python: context.criteria or context.award_date or context.award_resolution or context.allegations" class="row">
+                <div class="span12">
+                    <div class="box" style="text-align: left; ">
+                        <h3 style="text-align: center;" i18n:translate="">Awards</h3>
+                        <hr class="liniaDalt" />
+                        <ul class="list list-index" style="text-align:left; ">
+                            <li tal:condition="context/criteria">
+                                <span>
+                                    <strong i18n:translate="">Award criteria:</strong>
+                                    <span tal:replace="structure context/criteria/output|nothing"/>
+                                </span>
+                            </li>
+                            <li tal:condition="context/award_date">
+                                <span>
+                                    <strong i18n:translate="">Publication of the award resolution:</strong>
+                                    <tal:block condition="context/award_date">
+                                        <tal:date content="python:context.award_date.strftime('%d/%m/%Y')"></tal:date>
+                                    </tal:block>
+                                </span>
+                            </li>
+                            <li tal:condition="context/award_resolution">
+                                <span>
+                                    <strong i18n:translate="">Award's resolution:</strong>
+                                    <span tal:replace="structure context/award_resolution/output|nothing"/>
+                                </span>
+                            </li>
+                            <li tal:condition="context/allegations">
+                                <span>
+                                    <strong i18n:translate="">Allegations:</strong>
+                                    <span tal:replace="structure context/allegations/output|nothing"/>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div tal:condition="python: context.regulations" class="row">
+                <div class="span12">
+                    <div class="box" style="text-align: left; ">
+                        <h3 style="text-align: center;" i18n:translate="">More information</h3>
+                        <hr class="liniaDalt" />
+                        <ul class="list list-index" style="text-align:left; ">
+                            <li tal:condition="context/regulations">
+                                <span>
+                                    <strong i18n:translate="">Regulations:</strong>
+                                    <span tal:replace="structure context/regulations/output|nothing"/>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <div tal:content="structure view/getContactPage" />
+                </div>
+            </div>
+        </metal:block>
+    </metal:content-core>
+
+</body>
+</html>

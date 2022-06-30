@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-05-09 10:0+0000\n"
+"PO-Revision-Date: 2022-05-09 10:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: Plone Team@SCHOLARSHIPnet <plone.team@scholarshipnet.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: genweb6.scholarship\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: en\n"
+
+#: ../content/scholarship.py:78
+msgid "Academic requirements"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:58
+msgid "Academic requirements:"
+msgstr ""
+
+#: ../content/scholarship.py:138
+msgid "Additional amounts of scholarship"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:126
+msgid "Additional amounts of scholarship:"
+msgstr ""
+
+#: ../content/scholarship.py:120
+msgid "Additional documentation"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:104
+msgid "Additional documentation:"
+msgstr ""
+
+#: ../content/scholarship.py:186
+msgid "Allegations"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:180
+msgid "Allegations:"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:81
+msgid "Application"
+msgstr ""
+
+#: ../content/scholarship.py:108
+msgid "Application deadline"
+msgstr ""
+
+#: ../content/scholarship.py:102
+msgid "Application start date"
+msgstr ""
+
+#: ../content/scholarship.py:114
+msgid "Application submission"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:98
+msgid "Application submission:"
+msgstr ""
+
+#: ../content/scholarship.py:163
+msgid "Award"
+msgstr ""
+
+#: ../content/scholarship.py:168
+msgid "Award criteria"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:160
+msgid "Award criteria:"
+msgstr ""
+
+#: ../content/scholarship.py:180
+msgid "Award's resolution"
+msgstr ""
+
+#: ../content/scholarship.py:174
+msgid "Award's resolution date"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:174
+msgid "Award's resolution:"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:155
+msgid "Awards"
+msgstr ""
+
+#: ../content/scholarship.py:144
+msgid "Duration of the grant"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:132
+msgid "Duration of the grant:"
+msgstr ""
+
+#: ../content/scholarship.py:84
+msgid "Economic requirements"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:64
+msgid "Economic requirements:"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:92
+msgid "End date of application:"
+msgstr ""
+
+#: ../configure.zcml:33
+msgid "Extension profile for genweb.scholarship."
+msgstr ""
+
+#: ../content/scholarship.py:132
+msgid "General amount of scholarship"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:120
+msgid "General amount of scholarship:"
+msgstr ""
+
+#: ../content/scholarship.py:32
+#: ../content/scholarship_templates/view.pt:19
+msgid "General information"
+msgstr ""
+
+#: ../content/scholarship.py:72
+msgid "General requirements"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:52
+msgid "General requirements:"
+msgstr ""
+
+#: ../content/scholarship.py:90
+msgid "Incompatibilities"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:70
+msgid "Incompatibilities:"
+msgstr ""
+
+#: ../content/scholarship.py:193
+#: ../content/scholarship_templates/view.pt:191
+msgid "More information"
+msgstr ""
+
+#: ../content/scholarship.py:156
+msgid "Obligations of the beneficiaries"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:144
+msgid "Obligations of the beneficiaries:"
+msgstr ""
+
+#: ../content/scholarship.py:60
+msgid "Others"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:36
+msgid "Others:"
+msgstr ""
+
+#: ../content/scholarship.py:150
+msgid "Payment"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:138
+msgid "Payment:"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:166
+msgid "Publication of the award resolution:"
+msgstr ""
+
+#: ../content/scholarship.py:54
+msgid "Recipients"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:30
+msgid "Recipients:"
+msgstr ""
+
+#: ../content/scholarship.py:198
+msgid "Regulations"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:196
+msgid "Regulations:"
+msgstr ""
+
+#: ../content/scholarship.py:97
+msgid "Request"
+msgstr ""
+
+#: ../content/scholarship.py:67
+#: ../content/scholarship_templates/view.pt:47
+msgid "Requirements"
+msgstr ""
+
+#: ../content/scholarship.py:48
+msgid "Responsible Organism"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:24
+msgid "Responsible Organism:"
+msgstr ""
+
+#: ../content/scholarship.py:127
+#: ../content/scholarship_templates/view.pt:115
+#: ../profiles/default/types/Scholarship.xml
+msgid "Scholarship"
+msgstr ""
+
+#: ../content/scholarship_templates/view.pt:86
+msgid "Start date of application:"
+msgstr ""
+
+#: ../content/scholarship.py:37
+msgid "Summary"
+msgstr ""
+
+#: ../configure.zcml:33
+msgid "genweb.scholarship"
+msgstr ""
+
+#: ../content/scholarship.py:42
+msgid "scholarship_type"
+msgstr ""
