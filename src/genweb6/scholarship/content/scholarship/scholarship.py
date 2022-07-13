@@ -210,5 +210,7 @@ class Scholarship(Item):
 class View(BrowserView):
 
     def getContactPage(self):
-        contact = api.portal.get()[pref_lang()]['contact']
-        return contact.text.output
+        folder = api.portal.get()[pref_lang()]
+        if 'contact' in folder and folder['contact'].text:
+            return folder['contact'].text.output
+        return False

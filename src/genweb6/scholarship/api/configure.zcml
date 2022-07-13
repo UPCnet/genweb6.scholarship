@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="genweb6.scholarship">
+
+    <plone:service
+        method="GET"
+        name="@scholarships"
+        for="*"
+        factory=".scholarships.Scholarships"
+        permission="zope2.View"
+        />
+
+    <plone:service
+        method="GET"
+        name="@scholarship"
+        for="*"
+        factory=".scholarships.Scholarship"
+        permission="zope2.View"
+        />
+
+</configure>
