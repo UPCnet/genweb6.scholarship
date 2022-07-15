@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-05-14 13:39+0000\n"
+"POT-Creation-Date: 2022-07-15 11:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,3 +16,235 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: genweb6.scholarship\n"
+
+#: ../content/scholarship/scholarship.py:50
+msgid ""
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:79
+msgid "Academic requirements"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:62
+msgid "Academic requirements:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:139
+msgid "Additional amounts of scholarship"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:134
+msgid "Additional amounts of scholarship:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:121
+msgid "Additional documentation"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:110
+msgid "Additional documentation:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:187
+msgid "Allegations"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:190
+msgid "Allegations:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:86
+msgid "Application"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:109
+msgid "Application deadline"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:103
+msgid "Application start date"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:115
+msgid "Application submission"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:104
+msgid "Application submission:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:164
+msgid "Award"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:169
+msgid "Award criteria"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:170
+msgid "Award criteria:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:181
+msgid "Award's resolution"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:175
+msgid "Award's resolution date"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:184
+msgid "Award's resolution:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:164
+msgid "Awards"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:145
+msgid "Duration of the grant"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:140
+msgid "Duration of the grant:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:85
+msgid "Economic requirements"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:68
+msgid "Economic requirements:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:98
+msgid "End date of application:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:133
+msgid "General amount of scholarship"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:128
+msgid "General amount of scholarship:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:20
+#: ../content/scholarship/scholarship.py:33
+msgid "General information"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:73
+msgid "General requirements"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:56
+msgid "General requirements:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:91
+msgid "Incompatibilities"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:74
+msgid "Incompatibilities:"
+msgstr ""
+
+#: ../configure.zcml:21
+msgid "Installs the genweb6.scholarship add-on."
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:202
+#: ../content/scholarship/scholarship.py:194
+msgid "More information"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:157
+msgid "Obligations of the beneficiaries"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:152
+msgid "Obligations of the beneficiaries:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:61
+msgid "Others"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:38
+msgid "Others:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:151
+msgid "Payment"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:146
+msgid "Payment:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:176
+msgid "Publication of the award resolution:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:55
+msgid "Recipients"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:32
+msgid "Recipients:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:199
+msgid "Regulations"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:208
+msgid "Regulations:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:98
+msgid "Request"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:50
+#: ../content/scholarship/scholarship.py:68
+msgid "Requirements"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:49
+msgid "Responsible Organism"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:26
+msgid "Responsible Organism:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:122
+#: ../content/scholarship/scholarship.py:128
+msgid "Scholarship"
+msgstr ""
+
+#: ../content/scholarship/scholarship.pt:92
+msgid "Start date of application:"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:38
+msgid "Summary"
+msgstr ""
+
+#: ../configure.zcml:30
+msgid "Uninstalls the genweb6.scholarship add-on."
+msgstr ""
+
+#: ../configure.zcml:21
+msgid "genweb6.scholarship"
+msgstr ""
+
+#: ../configure.zcml:30
+msgid "genweb6.scholarship (uninstall)"
+msgstr ""
+
+#: ../content/scholarship/scholarship.py:43
+msgid "scholarship_type"
+msgstr ""
