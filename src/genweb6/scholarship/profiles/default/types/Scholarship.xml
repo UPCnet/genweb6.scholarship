@@ -27,7 +27,6 @@
         <element value="plone.tableofcontents" />
         <element value="plone.translatable" />
         <element value="plone.locking" />
-        <element value="plone.app.referenceablebehavior.referenceable.IReferenceable" />
     </property>
 
     <property name="default_view">view</property>
