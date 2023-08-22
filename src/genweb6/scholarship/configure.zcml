@@ -9,6 +9,7 @@
     <i18n:registerTranslations directory="locales" />
 
     <include package=".content" />
+    <include file="upgrades.zcml" />
 
     <genericsetup:registerProfile
         name="default"

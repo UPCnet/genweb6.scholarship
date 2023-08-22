@@ -21,6 +21,7 @@ parts/
 dist/*
 test.plone_addon/
 var/
+.sass-cache/
 # files
 .installed.cfg
 .mr.developer.cfg

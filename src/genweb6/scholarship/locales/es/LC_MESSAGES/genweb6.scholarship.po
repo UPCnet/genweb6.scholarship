@@ -217,6 +217,7 @@ msgstr "Organismo responsable:"
 
 #: ../content/scholarship/scholarship.pt:122
 #: ../content/scholarship/scholarship.py:128
+#: ../profiles/default/types/Scholarship.xml
 msgid "Scholarship"
 msgstr "Beca"
 
