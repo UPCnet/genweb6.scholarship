@@ -5,6 +5,7 @@ from plone import api
 from plone.app.textfield import RichText
 from plone.autoform import directives
 from plone.dexterity.content import Item
+from plone.dexterity.interfaces import IDexteritySchema
 from plone.supermodel import model
 from zope import schema
 from zope.interface import implementer
@@ -25,7 +26,7 @@ def build_vocabulary(values):
         for token, value in enumerate(values)])
 
 
-class IScholarship(model.Schema):
+class IScholarship(model.Schema, IDexteritySchema):
     """ Scholarship schema """
 
     directives.widget('fieldset_info', FieldsetFieldWidget)
