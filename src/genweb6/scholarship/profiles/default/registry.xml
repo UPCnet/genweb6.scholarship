@@ -15,4 +15,12 @@
 
   </records>
 
+  <!-- folder_contents (pat-structure): plone.icon.contenttype mas portal type normalizado -->
+  <record name="plone.icon.contenttype/scholarship">
+    <field type="plone.registry.field.TextLine">
+      <title>Scholarship</title>
+    </field>
+    <value key="resource">++plone++bootstrap-icons/pencil.svg</value>
+  </record>
+
 </registry>
